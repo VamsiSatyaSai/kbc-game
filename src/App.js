@@ -42,7 +42,7 @@ function App() {
         correctPlayer={correctPlayer} 
       />
       <div className="qr-code-container">
-        <QRCodeCanvas value="http://localhost:3000/player" size={150} />
+        <QRCodeCanvas value="https://kbc-game-pi.vercel.app/player" size={150} />
         <p>Scan this QR code to join the game!</p>
       </div>
       <PlayerScreen onJoin={handlePlayerJoin} onSubmit={handleAnswerSubmit} />
